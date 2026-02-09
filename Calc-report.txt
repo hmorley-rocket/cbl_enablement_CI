@@ -1,0 +1,39 @@
+Rocket (R) COBOL - mfurun Utility
+Unit Testing Framework for Windows/Native/64
+
+Fixture                    : Calc
+ Test Runner Trigger       : mfurun
+ Platform                  : Windows/Native/64
+
+Test case                  : MFUT_TESTADD
+ Status                    : Completed / Passed
+ Test Style                : COBOL
+ Time taken in ms          : 0
+ Return Code               : 00000000000000000000
+
+Test case                  : MFUT_TESTDIVISION
+ Status                    : Completed / Passed
+ Test Style                : COBOL
+ Time taken in ms          : 0
+ Return Code               : 00000000000000000000
+
+Test case                  : MFUT_TESTMULTIPLICATION
+ Status                    : Completed / Passed
+ Test Style                : COBOL
+ Time taken in ms          : 0
+ Return Code               : 00000000000000000000
+
+Test case                  : MFUT_TESTSUBTRACT
+ Status                    : Completed / Failed
+ Test Style                : COBOL
+ Time taken in ms          : 2
+ Return Code               : 00000000000000000000
+ Fail message count        : 1
+  Subtraction Test no.1 Failed
+
+Test Run Summary
+ Overall Result            : Failed
+ Tests run                 : 4
+ Tests passed              : 3
+ Tests failed              : 1
+ Total execution time      : 2
