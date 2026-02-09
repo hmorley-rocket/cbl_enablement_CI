@@ -16,7 +16,7 @@
                move 50 to num2
                perform subtraction
 
-               if result not = 50
+               if result not = -50
                    call "MFU_ASSERT_FAIL_Z" using  
                        z"Subtraction Test no.1 Failed"
                end-if
